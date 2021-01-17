@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ModelExample</display-name>
+  
+  <servlet>
+  <servlet-name>AddServlet</servlet-name>
+  <servlet-class>AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddServlet</servlet-name>
+  <url-pattern>/addServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DeleteServlet</servlet-name>
+  <servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteServlet</servlet-name>
+  <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FindServlet</servlet-name>
+  <servlet-class>FindServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>FindServlet</servlet-name>
+  <url-pattern>/findServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FindAllServlet</servlet-name>
+  <servlet-class>FindAllServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>FindAllServlet</servlet-name>
+  <url-pattern>/findAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>UpdateServlet</servlet-name>
+  <servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UpdateServlet</servlet-name>
+  <url-pattern>/updateServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
